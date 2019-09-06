@@ -1,0 +1,55 @@
+/*轮播器*/
+#rotate{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height:540px;
+    width: 960px;
+}
+/*图片列表*/
+#img-list{
+    z-index: -999;
+}
+/*图片的列表中的图片*/
+.img{
+    position: absolute;
+    height: 540px;
+    width: 960px;
+}
+/*按钮列表*/
+#button-list{
+    position: absolute;
+    top:500px;
+    left: 420px;
+}
+/*按钮*/
+#button-list button{
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+/*鼠标滑过按钮*/
+#button-list button:hover{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:gray;
+}
+/*左切换器*/
+#back{
+    position: absolute;
+    left: 0px;
+    top: 200px;
+    z-index: 20;
+}
+/*右切换器*/
+#next{
+    position: absolute;
+    right: 0px;
+    top:200px;
+    z-index: 20;
+}
